@@ -64,6 +64,7 @@ h3 {
 #container {
     position: relative;
     width: 960px;
+    min-height: 800px;
     margin: 0 auto;
 }
 
@@ -74,6 +75,7 @@ h3 {
     border: 1px solid #dddddd;
     padding: 20px;
     background-color: #FFFFFF;
+    margin-bottom: 100px;
 }
 
 .section-header, .connect-header {
@@ -156,14 +158,10 @@ textarea {
     padding: 0px;
 }
 
-.portfolio-image{
+.portfolio-image {
     float: left;
     margin: 24px 20px 0px 4px;
     position: relative;
-}
-
-.image {
-    clear: both;
 }
 
 .image-text {
@@ -178,17 +176,16 @@ textarea {
 
 footer {
     clear: both;
+    position: fixed;
     border-top: 5px solid #4aaaa5;
+    background-color: #666666;
     height: 60px;
-    position: absolute;
     width: 100%;
-    left: 0;
-    bottom: 0;
+    bottom: 0px;
 }
 
 footer > p {
     line-height: 60px;
     height: 60px;
     text-align: center;
-    background-color: #666666;
 }
